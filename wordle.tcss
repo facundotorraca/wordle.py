@@ -1,0 +1,36 @@
+Screen {
+    overflow: auto;
+}
+
+#container {
+    background: blue;
+}
+
+#wordle-grid {
+    layout: grid;
+    grid-size: 5 5;
+    grid-gutter: 1;
+
+    margin-top: 1;
+    margin-bottom: 1;
+
+    margin-left: 50;
+    margin-right: 50;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    border: round white;
+    content-align: center middle;
+}
+
+.incorrent  {
+    background: red
+}
+
+.correct { 
+    background: green
+}
+
+
